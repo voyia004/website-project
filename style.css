@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;/*aquamarine background*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Main website font*/
+    font-size: 16px;/* Default website font-size*/
+    text-align: center;/* Default text orientation*/
+}
+.container{
+    width: 80%; /* making website to be boxed*/
+    background-color: white; /* white website background8*/
+    margin: 0 auto; /*aligning the website center*/
+}
+h1.title:hover{
+    text-align: left !important;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: #a52a2a75;
+    transition: ease-in-out .7s;
+}
+/* Naigation bar*/
+.top menu{
+    background-color: brown;/* Assigning brown color*/
+    overflow: hidden; /* Hidding the text overflows*/
+}
+.top-menu ul li{
+    list-style-type: none;/*removing the unordered list or bullets*/
+    float: left;/* Align the lists of items horizontally*/
+    border-right: 2px solid #5fffea; /* adding the white border*/
+    padding: 5px 10px; /* adding somme space vertical and horizontal*/
+}
