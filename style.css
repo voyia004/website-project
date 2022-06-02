@@ -1,12 +1,12 @@
 body{
-    background-color: aquamarine;/*aquamarine background*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Main website font*/
-    font-size: 16px;/* Default website font-size*/
-    text-align: center;/* Default text orientation*/
+    background-color: aquamarine; /*aquamarine background*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Main website font*/
+    font-size: 16px; /*Default website font-size*/
+    text-align: center; /*Default text orientation*/
 }
 .container{
     width: 80%; /* making website to be boxed*/
-    background-color: white; /* white website background8*/
+    background-color: white; /*white website background8*/
     margin: 0 auto; /*aligning the website center*/
 }
 h1.title:hover{
@@ -21,14 +21,44 @@ h1.title:hover{
     color: #a52a2a75;
     transition: ease-in-out .7s;
 }
-/* Naigation bar*/
+
+/* Naigation bar */
 .top menu{
-    background-color: brown;/* Assigning brown color*/
-    overflow: hidden; /* Hidding the text overflows*/
+    background-color: brown; /* Assigning brown color */
+    overflow: hidden; /* Hidding the text overflows */
 }
 .top-menu ul li{
-    list-style-type: none;/*removing the unordered list or bullets*/
-    float: left;/* Align the lists of items horizontally*/
-    border-right: 2px solid #5fffea; /* adding the white border*/
-    padding: 5px 10px; /* adding somme space vertical and horizontal*/
+    list-style-type: none; /* removing the unordered list or bullets */
+    float: left; /* Align the lists of items horizontally */
+    border-right: 2px solid #5fffea; /* adding the white border */
+    padding: 5px 10px; /* adding somme space vertical and horizontal */
+}
+.top menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5fffea;
+    font-weight: 800;
+    font-size: 24px;
+}
+.top-menu ul li:hover{
+    background-color: #5fffea;
+}
+.top-menu ul li:hover a{
+    text-decoration: underline;
+    color: brown;
+}
+/* styling the image */
+.main-img{
+    width: 100%; /*makes the image full-width*/
+    height: 50vh; /*defines the height of an image in vertical height units*/
+}
+/* styling the image inside the table */
+table img{
+    height: 500px;
+    width: 400px;
+}
+table img:hover{
+    opacity: .5; /* on hovering the image, blur the image to o.5 */
+    transform: scale(1.005); /* increases the width and the height of the image by 1.005 */
+    transition: ease-in 2s; /* Dictates method and time taken for the transformation to occur */
 }
