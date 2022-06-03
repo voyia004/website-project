@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine; /*aquamarine background*/
+    background-color:#5fffea75; /*light blue background*/
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*Main website font*/
     font-size: 16px; /*Default website font-size*/
     text-align: center; /*Default text orientation*/
@@ -9,7 +9,7 @@ body{
     background-color: white; /*white website background8*/
     margin: 0 auto; /*aligning the website center*/
 }
-h1.title:hover{
+h1.title{
     text-align: left !important;
     color: brown;
     text-transform: uppercase;
@@ -24,7 +24,7 @@ h1.title:hover{
 
 /* Naigation bar */
 .top menu{
-    background-color: brown; /* Assigning brown color */
+    background-color: brown; /* assigning brown color */
     overflow: hidden; /* Hidding the text overflows */
 }
 .top-menu ul li{
@@ -61,4 +61,15 @@ table img:hover{
     opacity: .5; /* on hovering the image, blur the image to o.5 */
     transform: scale(1.005); /* increases the width and the height of the image by 1.005 */
     transition: ease-in 2s; /* Dictates method and time taken for the transformation to occur */
+}
+/* Credits section */
+.credits{
+    background-color: brown;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+}
+.credits :hover{
+    transform: rotate(15deg);
+    transition: ease-in-out 10ms;
 }
